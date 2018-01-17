@@ -33,7 +33,7 @@ app.use(express.static("public"));
 mongoose.Promise = Promise;
 
 // THIS ADDRESS WILL NEED TO BE CHANGED (???)
-mongoose.connect("mongodb://localhost/scrapetwo", {
+mongoose.connect("mongodb://heroku_gf48kg4x:pa1oi5fdf8kjcngofqdlfc9i5d@ds231725.mlab.com:31725/heroku_gf48kg4x", {
   useMongoClient: true
 });
 
